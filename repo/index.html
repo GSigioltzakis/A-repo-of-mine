@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/style.css"/>
+
+<header>
+    <head>
+        <title>Euva | Devpost</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="./favicon.PNG" type="image/png"> 
+        <link rel="stylesheet" href="style.css">    </head>
+    <nav id="nav-bar">
+    <img src=Devpost.jpg class="Title-img" href="#">
+    <input type="text"  name="q" placeholder="Search hackathon" id="search"
+    aria-label="Search through site content">
+    <button>Search</button>
+<div class="links">
+        <ul class="ul">
+            <a href="#">Hackathons</a>
+        
+            <a href="#">Projects</a>
+        </ul>
+        <ul class="ul2">
+            <a href="#">Host a hackathon</a>
+            <a href="#">Log in</a>
+
+        </ul>
+        <button type="button" class="btn">Sign up</button>
+    </div>
+    </nav>
+</header>
+
+<body>
+
+<div id="box">
+        <h1>Euva</h1>
+        <p style="font-size: 30px;">The Ultimate Journal App | Analyze and reflect of previous journals entries with the help of an artificial intelligence<br> model.</p>
+    
+
+    <div class="buttons">
+        <button type="button" class="buttonOne">Like | 7</button>
+        <button type="button" class="buttonTwo">Comment | 2</button>
+    </div>
+    
+</div>
+<div class="onetwo">
+<nav class="mid">
+    <a class="middle-section-nav-one" href="#">story</a>
+    <a class="middle-section-nav-two" href="#">updates</a>
+</nav>
+</div>
+<div>
+    <iframe width="560" class="video" height="315" src="https://www.youtube.com/embed/w7sD8y3BubE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="small-text">CREATED BY</p>
+    <p class="under-small-text">I worked on the whole project and I<br> am very much proud of the result<br> from it.</p>
+    <img class="img-next-tobox" src="https://lh3.googleusercontent.com/a-/AOh14Gj01RU_lnJWmpQq-gi2G-MyZrN46h8m5VXSeTnN=s96-c?height=180&amp;width=180">
+<li>
+    <a class="nihao" href="#">Sohan Dillikars + </a>
+</li>
+</div>
+
+<div class="letters">
+
+    <h2>Inspiration</h2>
+<p>A lot of times, we write journal entries about things that stood out to us during our day. Unfortunately, reflecting back on<br> them after a while is difficult, because it requires us to reread what we wrote a while back. With this as my motive, I have<br> created Euva, a journal app that allows users to reflect on their emotional behavior over a period of time.</p>
+<h2>What it does<br>
+    100% Confidential ― Write In Private</h2>
+<p>Your journals, your privacy. Euva requires users to login with a Google Account to strengthen account protection. Journals<br> are also saved in an encrypted format, so not only will getting hands on them be a problem, but so will comprehending<br> them.</p>
+
+<h2>Not Just A Text Editor ― It's A Block Editor</h2>
+<p>While typing in a plain text editor can be boring, Euva offers an intuitive block editor. Block editors allow users to create and<br> organize sections within an entry. Additionally, they allow users to move, edit, and delete blocks easily.</p>
+
+<h2>Sentimental Analysis Charts</h2>
+<p>Upon saving a journal, Euva uses a sentimental artificial intelligence model to determine the overall sentiment of your day<br>. Afterwards, Euva displays its predictions on an interactive doughnut chart.</p>
+
+<h2>Sentimental Scores Tracked Over Time</h2>
+<p>Over time, Euva saves sentimental progress from a user and displays it on an interactive graph allowing the user to reflect<br> on their emotional progress over a period of time. Euva allows users to analyze graphs with a line graph and bar chart.</p>
+
+<h2>How i built it</h2>
+<p>I used Python3 as my backend language and connected it to my frontend using Flask. To build my user interface, I used<br> HTML, CSS, Javascript, and Jinja. I used Bootstrap.css to quickly make user friendly components. To create interactive<br> graphs such as the line graph, bar chart, and doughnut chart, I used the Chartjs Javascript framework. For building a block<br> editor, I use the Editorjs Javascript framework and I styled it using my own CSS. I used Google's service account API to<br> allow users to login with a one click sign in with Google. In addition, logging in with Google strengthens account<br> protection. I saved user information and journal entries in an encrypted format into a MYSQL database. Finally, to perform<br> sentimental analysis upon journal entries, I used a transformers based neural network.</p>
+
+<h2>Challenges I ran into</h2>
+<p>I am not a frontend expert, so while creating this project I ran into many issues. Many of these issues involved styling my<br> website with CSS. There were times when I was frustrated that components didn't look<br> the way I imagined them to look like. Other times, components didn't align properly and they were randomly positioned. Apart from CSS, I also had some<br> troubles with Javascript. I wanted to use my Flask server as a REST API for my Javascript to be able to access, but there<br> was always some error that came upon trying to do so. After a long time, I found a stackoverflow solution that told my to<br> turn of CORS on my Flask app and I was able to use my Flask app as a REST API and my Javascript was able to access it.</p>
+
+<h2>Accomplishments that I'm proud of</h2>
+<p>While making this project, there are many things I believe I have accomplished. For starters, I was able to create a full stack<br> application while using many frameworks and languages. I am also proud of the UI I built for this application and the color<br> combination I chose. I am also proud of how I was able to use Flask and its features. In addition, I believe that while<br> building this project, I gained lots of experience with handling data with MYSQL.</p>
+
+<h2>What I learned</h2>
+<p>Building this project taught me lots of things. I learned a lot about frontend development and CSS. In addition, I learned<br> how to use Chartjs and Editorjs to build interactive components. This app was also the first time I used the Google service<br> account API to validate users, so learning how to do that was also fun. I also learned more about Flask and neural networks<br> in this project. This project was the first time I touched the concept of neural networks, so doing so taught me a lot about<br> them. Finally, I improved my Python and MYSQL skills upon building this project.</p>
+
+<h2>What's next for Euva</h2>
+<p>Eventually, I hope to host Euva live on the internet for people to use. I really hope you enjoyed my project and please let me<br> know what you thought of it in the comments below.</p>
+
+<h2>Built With</h2>
+
+<p class="last-links">
+    <a href="#">css</a>
+    <a href="#">flask</a>
+    <a href="#">html</a>
+    <a href="#">javascript</a>
+    <a href="#">mysql</a>
+    <a href="#">python</a>
+</p>
+
+<h2>Try it out</h2>
+<a href="#" style="font-size: 23px;" class="last">Github</a>
+
+</div>
+
+<div class="cmon-already">
+    <button type="button" class="buttonTwoLast">Like | 7</button>
+    <p class="poop">7 people like this:</p>
+
+<div class="pictures">
+
+                <img src="https://lh3.googleusercontent.com/a-/AOh14GiLCY1wmJGe81sSo2DTk3Np1mytG5DIsDjWa718=s96-c?type=square">
+                <img src="https://lh3.googleusercontent.com/a-/AOh14Ggf8SPUgVMWHuoBHo_BjuxkUFAkgCOkeeMhoGxBtA=s96-c?type=square">
+                <img src="https://lh3.googleusercontent.com/a-/AOh14Gh-LEYgBAtamO7YxxuyWj1PTcJpTQ1zZNrgwDtQIQ?type=square">
+                <img src="https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png">
+                <img src="https://lh3.googleusercontent.com/a-/AOh14Ggj2oJgBAizHKKphjOrkgcPEqoBX8pcXU2GZEgT=s96-c?type=square">
+                <img src="https://devpost-challengepost.netdna-ssl.com/assets/defaults/no-avatar-100-17cf519ce6f8e4e0e83758ea09fc5eb3.png">
+                <img src="https://lh3.googleusercontent.com/a-/AOh14Gj01RU_lnJWmpQq-gi2G-MyZrN46h8m5VXSeTnN=s96-c?type=square">
+</div>
+
+<h2 style="font-size: 30px; position: absolute; left: 150px;">Updates</h2>
+<img class="img-next-tobox2" src="https://lh3.googleusercontent.com/a-/AOh14Gj01RU_lnJWmpQq-gi2G-MyZrN46h8m5VXSeTnN=s96-c?height=180&amp;width=180">
+<div class="nihao2">
+
+
+<p><a  href="#">Sohan Dillikars</a> started this project — 2 months ago</p><br>
+
+<p><i>Leave feedback in the comments!</i></p>
+</div>
+
+<div class="big-end-box">
+    <img class="Deez" src="Deez.png">
+    
+    <p class="Denin">Denin Paul · 2 months ago</p><br>
+    <p class="Woah">Woahhhh....this is sooo well made. I hope you win, buddy</p>
+    <img  class="stacks"src="stacks.png">
+    <p class="Sohan">Sohan Dillikar · 2 months ago</p><br>
+    <p class="Thanks">Thank you, I very much appreciate your feedback!</p><br>
+    <div class="last">
+        <p><a href="#">Log in</a>or<a href="#">sign up for Devpost</a>to join the conversation.</p>
+    </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="footer-box">
+       
+        <div class="last-links">
+        <ul>
+    <li> <h3>Devpost</h3>        </li>        
+    <li> <a href="#">About</a>   </li>
+    <li> <a href="#">Careers</a> </li>
+    <li> <a href="#">Contact</a> </li>
+    <li> <a href="#">Help</a>    </li>
+        </ul>
+        </div>
+            <div class="last-links-two">
+            <ul>
+                <li> <h3>Hackathons</h3>        </li>        
+                <li> <a href="#">Browse hackathons</a>   </li>
+                <li> <a href="#">Explore projects</a> </li>
+                <li> <a href="#">Host a hackathon</a> </li>
+                <li> <a href="#">Hackathon guides</a>    </li>
+            </ul>
+        </div>
+        <div class="last-links-three">
+            <ul>
+                <li> <h3>Portfolio</h3>        </li>        
+                <li> <a href="#">Your projects</a>   </li>
+                <li> <a href="#">Explore projects</a> </li>
+                <li> <a href="#">Your hackathons</a> </li>
+                
+            </ul>
+        </div>
+        <div class="last-links-three">
+            <ul>
+                <li> <h3>Connect</h3>        </li>        
+                <li> <a href="#"> Twitter</a>   </li>
+                <li> <a href="#"> Facebook</a> </li>
+                <li> <a href="#">You Tube</a> </li>
+                
+            </ul>
+        </div>
+
+
+
+<div class="last-line">
+    <div class="copyrights">
+        <h4 class="last-last">© 2021 Devpost, Inc. All rights reserved.</h4>
+        <a href="#">Privacy policy</a>
+        <a href="#">CA notice</a>
+        <a href="#">Community guidelines</a>
+        <a href="#">Terms of service</a>
+
+    </div>
+
+
+</div>
+</div>
+</footer>
+
+
+
+
+</body>
